@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MailMaster.master.cs" Inherits="Mail_MailMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 1211px;
+        }
+        .style3
+        {
+            width: 172px;
+        }
+        .style4
+        {
+            width: 30px;
+        }
+
+        .style5
+        {
+            border: solid 1px red;
+            text-align: center;
+        }
+        
+    </style>
+    <link href="~/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="../Images/BackNew.jpg" class="Body">
+    <form id="form1" runat="server">
+    <div class="classDiv">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </asp:ToolkitScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+    <ContentTemplate>
+        <div id="divHeader">
+        </div>
+        <div id="divTabs">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="1"><img src="../Images/spacer.gif" alt="" width="222" height="10"></td>
+</tr>
+<tr>
+<td><div id="button">
+<table width="222px" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center">
+
+<a href="../Mail/Compose.aspx">Compose</a><hr />
+
+ </td>
+</tr>
+<tr>
+<td>
+
+<a href="../Mail/UserInbox.aspx">Inbox</a><hr />
+
+ </td>
+</tr>
+<tr>
+<td>
+
+<a href="../Mail/SentItems.aspx">Sent Items</a><hr />
+
+ </td>
+</tr>
+<tr>
+<td>
+<a href="../Mail/Drafts.aspx">Drafts</a><hr />
+ </td>
+</tr>
+<tr>
+    <td>
+    <a href="../Mail/Trash.aspx">Trash</a>
+    </td>
+</tr>
+</table>
+</div></td>
+</tr>
+<tr>
+<td height="1"><img src="../Images/spacer.gif" alt="" width="222" height="10"></td>
+</tr>
+</table>
+    </ContentTemplate>
+    </asp:UpdatePanel>
+    </div> 
+        <div id="divContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    
+    </form>
+</body>
+</html>

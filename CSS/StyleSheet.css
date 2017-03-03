@@ -1,0 +1,151 @@
+﻿@import url("Hyperlink.css");
+
+.Body
+{
+    background-repeat:no-repeat;
+    margin:50px 25px 15px 25px;
+}
+#classDiv
+{
+    border-radius:10px 10px 10px 10px;
+     border:solid 1px red;
+}
+#divHeader
+{
+    width:100%;
+}
+#divTabs
+{
+    width:250px;
+    border:solid 1px green;
+    float:left;
+}
+#divContent
+{
+    margin-left:255px;
+    border:solid 1px blue;
+}
+A:hover 
+{
+    TEXT-DECORATION: none; background-color:#F0F0F0;
+}
+
+#button A 
+{
+    border-radius:10px 10px 10px 10px;
+	DISPLAY: block; 
+	PADDING-LEFT: 75px; 
+	BACKGROUND-IMAGE: url('../images/s-btn.gif'); 
+    PADDING-BOTTOM: 6px; 
+    VERTICAL-ALIGN: middle; 
+    WIDTH: 175px; 
+    COLOR: #036e90; 
+    PADDING-TOP: 5px; 
+    TEXT-ALIGN: left; 
+    TEXT-DECORATION: none;
+	height: 20px;
+	font-size:20px
+}
+
+#InboxHeader
+{
+    
+}
+#divchk
+{
+    display:block;
+    padding-left:15px;
+    padding-top:5px;
+    border-radius:5px 5px 5px 5px;
+    background-color:#5F82A2;
+    width:40px;
+    height:25px;
+}
+.divRefresh
+{
+    border-radius:5px 5px 5px 5px;
+    display:block;
+    margin-left:25px;
+    width:40px;
+    height:25px;
+}
+#InboxContent
+{
+    width:100%;
+}
+#GridView1
+{
+    width:100%;
+}
+.temp
+{
+    width:20px;
+}
+
+.Button
+{
+    border-radius:15px 15px 15px 15px;
+    margin-left:25px;
+    background-color:#A9A07C;
+}
+.divCompose
+{
+    width:100%
+}
+.textbox
+{
+    width:100%;
+    height:20px;
+    font-size:18px;
+    background-color:#A6957F;
+    color:#F0F0F0;
+}
+.span
+{
+    font-family:Monotype Corsiva;
+    font-size:x-large;
+}
+#LinkButton1
+{
+    font-family:Monotype Corsiva;
+    font-size:x-large;
+    text-decoration:none;
+}
+.divHeaderContent
+{
+    height:30px;
+}
+.divContentDetails
+{
+    background-image:url("../Images/5-full.jpg");
+    border-radius:15px 15px 15px 15px;
+    padding:15px 15px 15px 15px;
+}
+.lblSubject
+{
+    font-size:30px;
+    width:100%;
+    margin-top:10px;
+    font-family:Monotype Corsiva;
+}
+.lblMID
+{
+    margin-top:30px;
+    margin-left:25px;
+    font-size:18px;
+}
+.lbl
+{
+    padding:5px 5px 5px 5px;
+}
+.LinkButton
+{
+    border-radius:5px 5px 5px 5px;
+	BACKGROUND-IMAGE: url('../images/s-btn.gif'); 
+    PADDING-BOTTOM: 6px; 
+    VERTICAL-ALIGN: middle;
+    COLOR: #036e90; 
+    PADDING-TOP: 5px; 
+    TEXT-ALIGN: left; 
+    TEXT-DECORATION: none; 
+}
