@@ -103,7 +103,7 @@
         <td class="style7">
             &nbsp;</td>
         <td class="style8">
-            UserName</td>
+            User Name</td>
         <td class="style22">
             <asp:TextBox ID="txtUname" runat="server" Width="275px" Height="20px"></asp:TextBox>
         </td>
@@ -129,7 +129,7 @@
             &nbsp;</td>
         <td class="style22">
             <asp:Button ID="Button1" runat="server" Height="26px" style="font-size: medium" 
-                Text="Login" Width="80px" onclick="Button1_Click" />
+                Text="Submit" Width="80px" onclick="Button1_Click" />
         </td>
         <td class="style26">
             &nbsp;</td>
